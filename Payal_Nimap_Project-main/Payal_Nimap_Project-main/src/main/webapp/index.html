@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>NavBar</title>
+</head>
+<style>
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #333;
+}
+
+li {
+	float: centre;
+	border-right: 3px solid #bbb;
+}
+
+li:last-child {
+	border-right: 3px solid #bbb;
+}
+
+li a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 34px 36px;
+	text-decoration: none;
+}
+
+li a:hover:not(.active) {
+	background-color: #111;
+}
+
+.active {
+	background-color: #04AA6D;
+}
+btn:hover {
+	background-color : "red";
+    color: cyan;
+}
+</style>
+<body align="center" style="border : 10px solid black;padding: 30px;margin: 5% 25% 10% 25%;">
+	<ul>
+		<li><a href="AddProduc.html" class="btn">Add Product</a></li>
+		<li><a href="UpdateRecord.html" class="btn">Update Product</a></li>
+		<li><a href="DeleteRecord.html" class="btn">Remove Product</a></li>
+		<li><a href="PageSize.html" class="btn">Display Details </a></li>
+	</ul>
+</body>
+</html>

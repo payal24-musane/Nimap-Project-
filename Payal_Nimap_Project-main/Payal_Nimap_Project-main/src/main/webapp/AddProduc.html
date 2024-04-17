@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<style type="text/css">
+.btn:hover {
+	background-color:"red";
+  color: cyan;
+}
+</style>
+</head>
+<body>
+	<div align="center"
+		style="border: 10px solid black; padding:5%; margin: 5% 25% 50px 25%;">
+		<form action="AddProduct" method="post">
+			<table>
+			<caption><h1><b>ProductMaster And CategoryMaster</b></h1></caption>
+
+				<tr>
+					<td>ProductId :</td>
+					<td><input type="text" name="pid"></td>
+				</tr>
+				<tr>
+					<td>ProductName :</td>
+					<td><input type="text" name="pname"></td>
+				</tr>
+				<tr>
+					<td>CategoryId :</td>
+					<td><input type="text" name="cid"></td>
+				</tr>
+				<tr>
+					<td>Categoryname :</td>
+					<td><input type="text" name="cname"></td>
+				</tr>
+			</table><br>
+			<input type="submit" class="btn"><br>
+			<br>
+		</form>
+	</div>
+</body>
+</html>
